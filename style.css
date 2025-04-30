@@ -12,6 +12,28 @@ body {
     width: 90%;
 
 }
+/* #pokemonInfo{
+
+} */
+#backToPkedex{
+    width: 100px;
+    height: 100px;
+}
+.grass{
+    border: 2px solid green
+}
+
+.fire{
+    border: 2px solid red
+}
+
+.poisson{
+    border: 2px solid purple
+}
+
+.water{
+    border: 2px solid blue
+}
 
 .pokemon-card{
     border: 2px solid rgb(23, 23, 27);
