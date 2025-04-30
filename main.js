@@ -26,8 +26,10 @@ function displayPokemon(pokemon){
 }
 
 async function loadPokedex(){
-    const pokemon = await fetchPokemonData(4)
+    for(let i=1; i<=52; i++){
+    const pokemon = await fetchPokemonData(i)
     console.log(pokemon)
     displayPokemon(pokemon)
 }   
+}
 loadPokedex()
